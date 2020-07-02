@@ -16,7 +16,9 @@ nav{
 }
 
 .logo{
-    color: white;
+    border-width: 10px;
+    border-color: white;
+    color: #00ff2b;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 18px;
@@ -29,18 +31,18 @@ nav{
 }
 .nav-links a{
     font-size: 18px;
-    color: white;
+    color: #00ff2b;
     text-decoration: none;
     letter-spacing: 3px;
 }
 .nav-links li{
     list-style: none;
-    border: 2px black;
+    border: 10px white;
 }
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #00ff2b;
     margin: 5px;
 }
 .burger{
