@@ -9,12 +9,14 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #80bfff;
+    background-image: url("Images/Matrix.jpg");
     font-family: 'Ubuntu', sans-serif;
+    border-style: solid;
+    border-width: 4px;
 }
 
 .logo{
-    color: #000000;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 18px;
@@ -26,23 +28,42 @@ nav{
     width: 40%;
 }
 .nav-links a{
-    color: #000000;
+    font-size: 18px;
+    color: white;
     text-decoration: none;
     letter-spacing: 3px;
 }
 .nav-links li{
     list-style: none;
+    border: 2px black;
 }
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: #000000;
+    background-color: white;
     margin: 5px;
 }
 .burger{
     display: none;
     cursor: pointer;
 }
+.column_one {
+    border-style: solid;
+    border-width: 5px;
+    float: left;
+    width: 45%;
+    height: 300px;
+}
+.column_two {
+    border-style: solid;
+    border-width: 1px;
+    float: right;
+    width: 45%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
 @media screen and (max-width:768px){
     body{
         overflow-x: hidden;
@@ -52,7 +73,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #80bfff;
+        background-color: #34ec23;
         display: flex;
         flex-direction: column;
         align-items: center;
