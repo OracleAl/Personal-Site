@@ -18,7 +18,7 @@ nav{
 .logo{
     border-width: 10px;
     border-color: white;
-    color: #00ff2b;
+    color: #03045E;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 18px;
@@ -31,7 +31,7 @@ nav{
 }
 .nav-links a{
     font-size: 18px;
-    color: #00ff2b;
+    color: #03045E;
     text-decoration: none;
     letter-spacing: 3px;
 }
