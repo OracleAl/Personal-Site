@@ -22,17 +22,20 @@
     left: 0px;
     top: 0px;
 }
-.aboutimages{
-    display: inline;
-}
 .aboutimageone{
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
+    float: right;
 }
 .aboutimagetwo{
-    width: 500px;
-    height: 500px;
-    float: right;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.aboutme{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: cadetblue;
 }
 .projectsbody{
     width: 100%;
