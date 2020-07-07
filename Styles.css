@@ -9,10 +9,41 @@
     -ms-user-select: none;      
     user-select: none;
 }
-.body{
+.homebody{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("https://user-images.githubusercontent.com/67405069/86557633-c13dc480-bf24-11ea-9d22-14a65261880f.jpg");
+    background-size: cover;
+}
+.showcase{
+    position: relative;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+}
+.aboutimages{
+    display: inline;
+}
+.aboutimageone{
+    width: 500px;
+    height: 500px;
+}
+.aboutimagetwo{
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+.projectsbody{
     width: 100%;
     height: 100vh;
     background-image: url("https://user-images.githubusercontent.com/67405069/86557633-c13dc480-bf24-11ea-9d22-14a65261880f.jpg");
+    background-size: cover;
+}
+.contactbody{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://user-images.githubusercontent.com/67405069/86703789-3ae7b800-bfe2-11ea-906a-5f78fcf76f12.jpg");
     background-size: cover;
 }
 nav{
@@ -25,13 +56,11 @@ nav{
     border-width: 0px;
     border-color: #03045E;
 }
-
 .logo{
     color: #03045E;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 18px;
-
 }
 .nav-links{
     display: flex;
@@ -39,7 +68,7 @@ nav{
     width: 40%;
 }
 .nav-links a{
-    font-size: 18px;
+    font-size: 20px;
     color: #03045E;
     text-decoration: none;
     letter-spacing: 3px;
