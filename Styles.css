@@ -22,6 +22,17 @@
     left: 0px;
     top: 0px;
 }
+.grid{
+    display: grid;
+}
+.box1{
+    background-color: red;
+    grid-area: 1 / 1;
+}
+.box2{
+    background-color: blue;
+    grid-area: 1 / 1;
+}
 .aboutimageone{
     width: 50%;
     height: 50%;
@@ -95,7 +106,7 @@ nav{
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: #00ff2b;
+    background-color: #03045E;
     margin: 5px;
 }
 .burger{
@@ -115,7 +126,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #34ec23;
+        background-color: #03045E;
         display: flex;
         flex-direction: column;
         align-items: center;
