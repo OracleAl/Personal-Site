@@ -9,29 +9,48 @@
     -ms-user-select: none;      
     user-select: none;
 }
-.homebody{
+img{
     width: 100vw;
     height: 100vh;
     max-width: 100%;
-    background-image: url("https://user-images.githubusercontent.com/67405069/86557633-c13dc480-bf24-11ea-9d22-14a65261880f.jpg");
     background-size: cover;
+    position: absolute;
+    z-index: -1;
 }
 .showcase{
+    z-index: -1;
+    display: flex;
     position: relative;
-    z-index: 10;
-    left: 0px;
-    top: 0px;
+    background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    align-items: center;
+    top: 92vh;
 }
-.grid{
-    display: grid;
+.box1, .box2{
+    background-color: #000;
+    opacity: 40%;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    position: relative;
 }
 .box1{
-    background-color: red;
-    grid-area: 1 / 1;
+    z-index: -1;
 }
 .box2{
-    background-color: blue;
-    grid-area: 1 / 1;
+    z-index: -1;
+}
+.box1_1{
+    background-color: solid red;
+    border: 10px solid green;
+    border-radius: 50px;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
 }
 .aboutimageone{
     width: 50%;
@@ -42,6 +61,9 @@
     width: 50%;
     height: 50%;
     float: left;
+}
+.homebody{
+    position: relative;
 }
 .aboutme{
     font-family: 'Ubuntu', sans-serif;
@@ -60,6 +82,10 @@
     background-image: url("https://user-images.githubusercontent.com/67405069/86703789-3ae7b800-bfe2-11ea-906a-5f78fcf76f12.jpg");
     background-size: cover;
 }
+.avcon{
+    position: absolute;
+    z-index: 1;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -69,6 +95,9 @@ nav{
     border-style: solid;
     border-width: 0px;
     border-color: #03045E;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 .logo{
     color: #03045E;
