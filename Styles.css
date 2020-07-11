@@ -53,14 +53,44 @@ img{
     z-index: 2;
 }
 .aboutimageone{
-    width: 50%;
-    height: 50%;
-    float: right;
+    background-image: url("https://user-images.githubusercontent.com/67405069/86560222-cd795000-bf2b-11ea-9ec8-27507a401450.jpg");
+    height: 50vh;
+    width: 50vh;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px gray;
 }
 .aboutimagetwo{
-    width: 50%;
-    height: 50%;
-    float: left;
+    background-image: url("https://user-images.githubusercontent.com/67405069/86707854-5e146680-bfe6-11ea-8533-4a9d33ccd739.jpg");
+    height: 50vh;
+    width: 50vh;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px gray;
+}
+.aboutbody{
+    position: relative;
+}
+.aboutgrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 10px black;
+    position: relative;
+    top: 100vh;
+}
+.aboutboxone{
+    height: 50vh;
+    background-color: green;
+}
+.aboutboxtwo{
+    height: 50vh;
+    background-color: red;
+}
+.imagecon{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    
 }
 .homebody{
     position: relative;
